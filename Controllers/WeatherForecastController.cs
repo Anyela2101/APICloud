@@ -21,6 +21,6 @@ public class WeatherForecastController : ControllerBase
     [HttpGet]
     public ActionResult<string> Get()
     {
-        return "Hola Mundo";
+        return "Hola Mundo Instancia 2";
     }
 }
